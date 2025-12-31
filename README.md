@@ -33,7 +33,7 @@ A Task Management Web App for sales teams to track, manage, and prioritize tasks
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/souravdishri/task-glitch.git
    cd task-glitch
    ```
 
@@ -52,7 +52,7 @@ A Task Management Web App for sales teams to track, manage, and prioritize tasks
 
 ## 🌐 Live Deployment
 
-The app is deployed and accessible at: [https://your-deployment-link.vercel.app](https://your-deployment-link.vercel.app)
+The app is deployed and accessible at: [https://task-glitch-delta-seven.vercel.app/](https://your-deployment-link.vercel.app)
 
 ## ✨ Features
 
