@@ -18,6 +18,21 @@ export interface DerivedTask extends Task {
   priorityWeight: 3 | 2 | 1;
 }
 
+// ---------- API Payload Types (IMPORTANT PART) ----------
+
+// Payload for creating a task (frontend → backend)
+export type TaskCreateInput = Omit<
+  Task,
+  'id' | 'createdAt' | 'completedAt'
+>
+
+// Payload for updating a task
+export type TaskUpdateInput = Partial<
+  Omit<Task, 'createdAt'>
+> & {
+  id: string
+}
+
 export interface Metrics {
   totalRevenue: number;
   totalTimeTaken: number;
